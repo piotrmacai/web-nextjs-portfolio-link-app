@@ -22,8 +22,16 @@ export const siteConfig: SiteConfig = {
   name: "Piotr Macai / Ainsider.co",
   avatar: "/macaihead.jpg",
   description: "AI & Web Designer & Developer. Creator of New Digital World.",
-  bannerImage: "/banner.jpg?height=300&width=1200",
-  links: [
+  bannerImage: "/banner.png?height=300&width=1200",
+  links: [    
+    {
+      label: "Macai.studio",
+      url: "https://macai.studio",
+      type: "custom",
+      description: "Check out my latest projects and case studies",
+      shortDescription: "Personal Portfolio",
+      visible: true
+    },   
     {
       label: "Ainsider.tools",
       url: "https://ainsider.tools",
@@ -31,23 +39,15 @@ export const siteConfig: SiteConfig = {
       description: "AI Tools and Models Directory",
       shortDescription: "AI Tools and Models Directory",
       visible: true
-    },
+    },  
     {
-      label: "Ainsider.studio",
+      label: "Ainsider.co",
       url: "https://ainsider.co",
       type: "custom",
       description: "My Web & AI Studio",
       shortDescription: "My Web & AI Studio",
       visible: true
-    },
-    {
-      label: "Ainsider.store",
-      url: "https://ainsider.store",
-      type: "custom",
-      description: "AI Tutorials & Resources Platform",
-      shortDescription: "AI Guides & Resources",
-      visible: true
-    },   
+    },    
     {
       label: "Ai Newsletter",
       url: "https://ainsider.beehiiv.com",
@@ -57,13 +57,13 @@ export const siteConfig: SiteConfig = {
       visible: true
     }, 
     {
-      label: "Macai.studio",
-      url: "https://macai.studio",
+      label: "Ainsider.pl",
+      url: "https://ainsider.pl",
       type: "custom",
-      description: "Check out my latest projects and case studies",
-      shortDescription: "Personal Portfolio",
+      description: "Baza wiedzy & Katalog Narzędzi AI",
+      shortDescription: "Baza wiedzy & Katalog Narzędzi AI",
       visible: true
-    },
+    },   
     {
       label: "X",
       url: "https://x.com/piotrmacai",
@@ -80,7 +80,7 @@ export const siteConfig: SiteConfig = {
     },
     {
       label: "Instagram",
-      url: "https://instagram.com/yourusername",
+      url: "https://www.instagram.com/piotr.macai/",
       type: "instagram",
       shortDescription: "Visuals & AI Art",
       visible: true
