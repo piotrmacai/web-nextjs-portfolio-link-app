@@ -6,7 +6,7 @@ export interface SiteConfig {
   links: {
     label: string
     url: string
-    type: 'x' | 'linkedin' | 'instagram' | 'facebook' | 'threads' | 'youtube' | 'tiktok' | 'pinterest' | 'whatsapp' | 'telegram' | 'messenger' | 'behance' | 'artstation' | 'deviantart' | 'custom'
+    type: 'x' | 'linkedin' | 'github' | 'instagram' | 'facebook' | 'threads' | 'youtube' | 'tiktok' | 'pinterest' | 'whatsapp' | 'telegram' | 'messenger' | 'behance' | 'artstation' | 'deviantart' | 'custom'
     description?: string
     shortDescription?: string
     visible: boolean
@@ -20,48 +20,56 @@ export interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
   name: "Piotr Macai / Ainsider.co",
-  avatar: "/macaihead.jpg",
+  avatar: "/macailg.jpg",
   description: "AI & Web Designer & Developer. Creator of New Digital World.",
   bannerImage: "/banner.png?height=300&width=1200",
   links: [    
     {
-      label: "Macai.studio",
-      url: "https://macai.studio",
+      label: "Fullstack Creative Studio",
+      url: "https://macai.cloud", 
       type: "custom",
       description: "Check out my latest projects and case studies",
-      shortDescription: "Personal Portfolio",
+      shortDescription: "macai.cloud",
       visible: true
     },   
     {
-      label: "Ainsider.tools",
+      label: "AI Tools and Models Directory",
       url: "https://ainsider.tools",
       type: "custom",
-      description: "AI Tools and Models Directory",
-      shortDescription: "AI Tools and Models Directory",
+      description: "AI Tools & Models Directory",
+      shortDescription: "ainsider.tools",
       visible: true
     },  
     {
-      label: "Ainsider.co",
+      label: "AI & Automation Studio",
       url: "https://ainsider.co",
       type: "custom",
-      description: "My Web & AI Studio",
-      shortDescription: "My Web & AI Studio",
+      description: "AI & Automation Studio",
+      shortDescription: "ainsider.co",
       visible: true
-    },    
+    },     
     {
-      label: "Ai Newsletter",
-      url: "https://ainsider.beehiiv.com",
-      type: "custom",
-      description: "Ainsider AI Newsletter",
-      shortDescription: "Ainsider AI Newsletter",
-      visible: true
-    }, 
-    {
-      label: "Ainsider.pl",
+      label: "Baza wiedzy & Katalog Narzędzi AI",
       url: "https://ainsider.pl",
       type: "custom",
       description: "Baza wiedzy & Katalog Narzędzi AI",
-      shortDescription: "Baza wiedzy & Katalog Narzędzi AI",
+      shortDescription: "ainsider.pl",
+      visible: true
+    },     
+    {
+      label: "Ainsider AI Newsletter",
+      url: "https://ainsider.beehiiv.com",
+      type: "custom",
+      description: "Ainsider AI Newsletter",
+      shortDescription: "ainsider.beehiiv.com",
+      visible: true
+    }, 
+    {
+      label: "Polskojęzyczny Newsletter AI",
+      url: "https://newsletter.ainsider.pl",
+      type: "custom",
+      description: "Baza wiedzy & Katalog Narzędzi AI",
+      shortDescription: "newsletter.ainsider.pl",
       visible: true
     },   
     {
@@ -69,21 +77,21 @@ export const siteConfig: SiteConfig = {
       url: "https://x.com/piotrmacai",
       type: "x",
       shortDescription: "AI Insights and Guides",
-      visible: true
+      visible: false
     },
     {
       label: "LinkedIn",
       url: "https://www.linkedin.com/in/piotrmacai/",
       type: "linkedin",
       shortDescription: "AI Agents and LLMs insights",
-      visible: true
+      visible: false
     },
     {
       label: "Instagram",
       url: "https://www.instagram.com/piotr.macai/",
       type: "instagram",
       shortDescription: "Visuals & AI Art",
-      visible: true
+      visible: false
     },
     {
       label: "Facebook",
@@ -146,14 +154,14 @@ export const siteConfig: SiteConfig = {
       url: "https://www.behance.net/macaistudio",
       type: "behance",
       shortDescription: "Design & UX/UI",
-      visible: true
+      visible: false
     },
     {
       label: "Artstation",
       url: "https://www.artstation.com/piotrmacai",
       type: "artstation",
       shortDescription: "AI Generated Visuals",
-      visible: true
+      visible: false
     },
     {
       label: "DeviantArt",
@@ -162,6 +170,13 @@ export const siteConfig: SiteConfig = {
       shortDescription: "AI Generated Visuals",
       visible: false
     }
+    // {
+    //   label: "GitHub",
+    //   url: "https://github.com/piotrmacai",
+    //   type: "github",
+    //   shortDescription: "Source code and projects",
+    //   visible: true
+    // }
   ],
   footer: {
     email: "piotr@ainsider.co",
