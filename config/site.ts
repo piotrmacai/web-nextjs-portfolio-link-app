@@ -26,12 +26,12 @@ export const siteConfig: SiteConfig = {
   links: [    
     {
       label: "Fullstack Creative Studio",
-      url: "https://macai.cloud", 
+      url: "https://piotrmacai.com", 
       type: "custom",
       description: "Check out my latest projects and case studies",
-      shortDescription: "macai.cloud",
+      shortDescription: "piotrmacai.com",
       visible: true
-    },   
+    },    
     {
       label: "AI Tools and Models Directory",
       url: "https://ainsider.tools",
@@ -39,7 +39,7 @@ export const siteConfig: SiteConfig = {
       description: "AI Tools & Models Directory",
       shortDescription: "ainsider.tools",
       visible: true
-    },  
+    },    
     {
       label: "AI & Automation Studio",
       url: "https://ainsider.co",
@@ -47,13 +47,21 @@ export const siteConfig: SiteConfig = {
       description: "AI & Automation Studio",
       shortDescription: "ainsider.co",
       visible: true
-    },     
+    },      
+    {
+      label: "AI Agents & Automation Templates Store",
+      url: "https://ainsider.store",
+      type: "custom",
+      description: "AI Agents & Automation Templates Store",
+      shortDescription: "Explore",
+      visible: true
+    }, 
     {
       label: "Baza wiedzy & Katalog Narzędzi AI",
       url: "https://ainsider.pl",
       type: "custom",
       description: "Baza wiedzy & Katalog Narzędzi AI",
-      shortDescription: "ainsider.pl",
+      shortDescription: "Ainsider.pl",
       visible: true
     },     
     {
@@ -61,7 +69,7 @@ export const siteConfig: SiteConfig = {
       url: "https://ainsider.beehiiv.com",
       type: "custom",
       description: "Ainsider AI Newsletter",
-      shortDescription: "ainsider.beehiiv.com",
+      shortDescription: "Explore",
       visible: true
     }, 
     {
@@ -69,7 +77,7 @@ export const siteConfig: SiteConfig = {
       url: "https://newsletter.ainsider.pl",
       type: "custom",
       description: "Baza wiedzy & Katalog Narzędzi AI",
-      shortDescription: "newsletter.ainsider.pl",
+      shortDescription: "Subskrybuj",
       visible: true
     },   
     {
