@@ -23,15 +23,7 @@ export const siteConfig: SiteConfig = {
   avatar: "/macailg.jpg",
   description: "AI & Web Designer & Developer. Creator of New Digital World.",
   bannerImage: "/banner.png?height=300&width=1200",
-  links: [    
-    {
-      label: "Fullstack Creative Studio",
-      url: "https://piotrmacai.com", 
-      type: "custom",
-      description: "Check out my latest projects and case studies",
-      shortDescription: "piotrmacai.com",
-      visible: true
-    },    
+  links: [       
     {
       label: "AI Tools and Models Directory",
       url: "https://ainsider.tools",
@@ -40,20 +32,28 @@ export const siteConfig: SiteConfig = {
       shortDescription: "ainsider.tools",
       visible: true
     },    
-    {
-      label: "AI & Automation Studio",
-      url: "https://ainsider.co",
+       {
+      label: "Ainsider AI Newsletter",
+      url: "https://ainsider.beehiiv.com",
       type: "custom",
-      description: "AI & Automation Studio",
-      shortDescription: "ainsider.co",
+      description: "Ainsider AI Newsletter",
+      shortDescription: "Ainsider.beehiiv.com",
       visible: true
-    },      
+    },       
     {
       label: "AI Agents & Automation Templates Store",
       url: "https://ainsider.store",
       type: "custom",
       description: "AI Agents & Automation Templates Store",
-      shortDescription: "Explore",
+      shortDescription: "Ainsider.store",
+      visible: true
+    },
+      {
+      label: "AI & Automation Studio",
+      url: "https://ainsider.co",
+      type: "custom",
+      description: "AI & Automation Studio",
+      shortDescription: "ainsider.co",
       visible: true
     }, 
     {
@@ -62,16 +62,8 @@ export const siteConfig: SiteConfig = {
       type: "custom",
       description: "Baza wiedzy & Katalog Narzędzi AI",
       shortDescription: "Ainsider.pl",
-      visible: true
+      visible: false
     },     
-    {
-      label: "Ainsider AI Newsletter",
-      url: "https://ainsider.beehiiv.com",
-      type: "custom",
-      description: "Ainsider AI Newsletter",
-      shortDescription: "Explore",
-      visible: true
-    }, 
     {
       label: "Polskojęzyczny Newsletter AI",
       url: "https://newsletter.ainsider.pl",
@@ -79,7 +71,15 @@ export const siteConfig: SiteConfig = {
       description: "Baza wiedzy & Katalog Narzędzi AI",
       shortDescription: "Subskrybuj",
       visible: true
-    },   
+    },
+        {
+      label: "Fullstack Creative Studio",
+      url: "https://piotrmacai.com", 
+      type: "custom",
+      description: "Check out my latest projects and case studies",
+      shortDescription: "piotrmacai.com",
+      visible: true
+    },    
     {
       label: "X",
       url: "https://x.com/piotrmacai",

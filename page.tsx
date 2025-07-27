@@ -63,7 +63,7 @@ export default function Home() {
       <div className="mx-auto max-w-2xl p-4">
         <ThemeToggle />
         
-        <div className="flex flex-col items-center justify-center space-y-4 text-center py-12">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center py-8">
           <Avatar className="h-24 w-24 border-4 border-border">
             <AvatarImage src={siteConfig.avatar} alt={siteConfig.name} />
             <AvatarFallback>{siteConfig.name.charAt(0)}</AvatarFallback>
@@ -79,7 +79,7 @@ export default function Home() {
           </div>
 
            {/* Social Media Icons Bar */}
-           <div className="flex justify-center items-center gap-4 py-6">
+           <div className="flex justify-center items-center gap-4 py-2">
   {socialMediaLinks.map((social) => (
     <a
       key={social.type}
@@ -101,7 +101,7 @@ export default function Home() {
           
         </div>
 
-        <div className="grid gap-4 py-6 md:gap-6">
+        <div className="grid gap-4 py-2 md:gap-6">
           {siteConfig.links.filter(link => link.visible).map((link, index) => (
             <SocialLink key={index} {...link} />
           ))}
