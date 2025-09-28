@@ -25,29 +25,31 @@ export const siteConfig: SiteConfig = {
   bannerImage: "/banner.png?height=300&width=1200",
   links: [       
     {
-      label: "AI Tools and Models Directory",
-      url: "https://ainsider.tools",
-      type: "custom",
-      description: "AI Tools & Models Directory",
-      shortDescription: "ainsider.tools",
-      visible: true
-    },    
-       {
-      label: "Ainsider AI Newsletter",
-      url: "https://ainsider.beehiiv.com",
-      type: "custom",
-      description: "Ainsider AI Newsletter",
-      shortDescription: "Ainsider.beehiiv.com",
-      visible: true
-    },       
-    {
-      label: "AI Agents & Automation Templates Store",
+      label: "AI Agents & Resources Hub",
       url: "https://ainsider.store",
       type: "custom",
-      description: "AI Agents & Automation Templates Store",
-      shortDescription: "Ainsider.store",
+      description: "AI Agents & Resources Hub",
+      shortDescription: "ainsider.store",
       visible: true
-    },
+    },    
+
+       {
+      label: "Substack AI Newsletter",
+      url: "https://ainsiderai.substack.com/",
+      type: "custom",
+      description: "Substack AI Newsletter",
+      shortDescription: "ainsiderai.substack.com",
+      visible: true
+    },       
+  
+    // {
+    //   label: "AI Agents & Automation Templates Store",
+    //   url: "https://ainsider.store",
+    //   type: "custom",
+    //   description: "AI Agents & Automation Templates Store",
+    //   shortDescription: "Ainsider.store",
+    //   visible: true
+    // },
       {
       label: "AI & Automation Studio",
       url: "https://ainsider.co",
@@ -57,29 +59,38 @@ export const siteConfig: SiteConfig = {
       visible: true
     }, 
     {
-      label: "Baza wiedzy & Katalog Narzędzi AI",
-      url: "https://ainsider.pl",
+      label: "AI Agents & Automation Skool",
+      url: "https://www.skool.com/ainsider-6149/about?ref=d207b2af5b914ff09daac8af70f1162c",
       type: "custom",
-      description: "Baza wiedzy & Katalog Narzędzi AI",
-      shortDescription: "Ainsider.pl",
-      visible: false
-    },     
-    {
-      label: "Polskojęzyczny Newsletter AI",
-      url: "https://newsletter.ainsider.pl",
-      type: "custom",
-      description: "Baza wiedzy & Katalog Narzędzi AI",
-      shortDescription: "Subskrybuj",
+      description: "AI Agents & Automation Skool",
+      shortDescription: "skool",
       visible: true
     },
-        {
+         {
       label: "Fullstack Creative Studio",
-      url: "https://piotrmacai.com", 
+      url: "https:/macai.cloud.com", 
       type: "custom",
       description: "Check out my latest projects and case studies",
-      shortDescription: "piotrmacai.com",
+      shortDescription: "macai.cloud",
       visible: true
-    },    
+    },   
+    {
+      label: "AI Newsletter po polsku",
+      url: "https://ainsider.pl",
+      type: "custom",
+      description: "AI Newsletter po polsku",
+      shortDescription: "Ainsider.pl",
+      visible: true
+    },     
+    // {
+    //   label: "Polskojęzyczny Newsletter AI",
+    //   url: "https://newsletter.ainsider.pl",
+    //   type: "custom",
+    //   description: "Baza wiedzy & Katalog Narzędzi AI",
+    //   shortDescription: "Subskrybuj",
+    //   visible: true
+    // },
+   
     {
       label: "X",
       url: "https://x.com/piotrmacai",
