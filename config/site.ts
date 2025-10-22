@@ -58,14 +58,7 @@ export const siteConfig: SiteConfig = {
       shortDescription: "ainsider.co",
       visible: true
     }, 
-    {
-      label: "AI Agents & Automation Skool",
-      url: "https://www.skool.com/ainsider-6149/about?ref=d207b2af5b914ff09daac8af70f1162c",
-      type: "custom",
-      description: "AI Agents & Automation Skool",
-      shortDescription: "skool",
-      visible: true
-    },
+   
          {
       label: "Fullstack Creative Studio",
       url: "https:/macai.cloud.com", 
@@ -81,7 +74,23 @@ export const siteConfig: SiteConfig = {
       description: "AI Newsletter po polsku",
       shortDescription: "Ainsider.pl",
       visible: true
-    },     
+    }, 
+    {
+      label: "AI Agents & Automation Skool",
+      url: "https://www.skool.com/ainsider-6149/about?ref=d207b2af5b914ff09daac8af70f1162c",
+      type: "custom",
+      description: "Skool with AI Agents & Automations",
+      shortDescription: "skool",
+      visible: true
+    },  
+     {
+      label: "Gumroad with AI & Creatives Workflows",
+      url: "https://ainsider.gumroad.com/",
+      type: "custom",
+      description: "Gumroad",
+      shortDescription: "gumroad",
+      visible: true
+    },    
     // {
     //   label: "Polskojęzyczny Newsletter AI",
     //   url: "https://newsletter.ainsider.pl",
@@ -200,7 +209,7 @@ export const siteConfig: SiteConfig = {
   footer: {
     email: "piotr@ainsider.co",
     address: "Poland",
-    phone: "+48 576 287 032"
+    phone: "+48 730 776 541"
   }
 }
 
