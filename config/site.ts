@@ -32,7 +32,14 @@ export const siteConfig: SiteConfig = {
       shortDescription: "ainsider.store",
       visible: true
     },    
-
+   {
+      label: "AI & Automation Studio",
+      url: "https://ainsider.co",
+      type: "custom",
+      description: "AI & Automation Studio",
+      shortDescription: "ainsider.co",
+      visible: true
+    }, 
        {
       label: "Substack AI Newsletter",
       url: "https://ainsiderai.substack.com/",
@@ -41,7 +48,6 @@ export const siteConfig: SiteConfig = {
       shortDescription: "ainsiderai.substack.com",
       visible: true
     },       
-  
     // {
     //   label: "AI Agents & Automation Templates Store",
     //   url: "https://ainsider.store",
@@ -50,29 +56,21 @@ export const siteConfig: SiteConfig = {
     //   shortDescription: "Ainsider.store",
     //   visible: true
     // },
-      {
-      label: "AI & Automation Studio",
-      url: "https://ainsider.co",
-      type: "custom",
-      description: "AI & Automation Studio",
-      shortDescription: "ainsider.co",
-      visible: true
-    }, 
-   
-         {
-      label: "Fullstack Creative Studio",
-      url: "https:/macai.cloud.com", 
-      type: "custom",
-      description: "Check out my latest projects and case studies",
-      shortDescription: "macai.cloud",
-      visible: true
-    },   
+    
     {
       label: "AI Newsletter po polsku",
       url: "https://ainsider.pl",
       type: "custom",
-      description: "AI Newsletter po polsku",
-      shortDescription: "Ainsider.pl",
+      description: "AI po polsku",
+      shortDescription: "ainsider.pl",
+      visible: true
+    }, 
+            {
+      label: "My Personal Portfolio",
+      url: "https:/macai.cloud.com", 
+      type: "custom",
+      description: "Check out my latest projects and case studies",
+      shortDescription: "macai.cloud",
       visible: true
     }, 
     {
