@@ -6,7 +6,6 @@ import { Footer } from "@/components/footer"
 import { siteConfig } from "@/config/site"
 import  Chatbot from "@/components/chatbot"
 import { Github, Instagram, Linkedin, X } from "lucide-react"
-import { BehanceIcon, ArtstationIcon } from "@/components/social-link"
 
 export default function Home() {
    // Get specific social media links
