@@ -23,7 +23,7 @@ export const siteConfig: SiteConfig = {
   avatar: "/macailg.jpg",
   description: "AI & Web Designer & Developer. Creator of New Digital World.",
   bannerImage: "/banner.png?height=300&width=1200",
-  links: [       
+  links: [
     {
       label: "AI Agents & Resources Hub",
       url: "https://ainsider.store",
@@ -31,23 +31,23 @@ export const siteConfig: SiteConfig = {
       description: "AI Agents & Resources Hub",
       shortDescription: "ainsider.store",
       visible: true
-    },    
-   {
+    },
+    {
       label: "AI & Automation Studio",
       url: "https://ainsider.co",
       type: "custom",
       description: "AI & Automation Studio",
       shortDescription: "ainsider.co",
       visible: true
-    }, 
-       {
+    },
+    {
       label: "Substack AI Newsletter",
       url: "https://ainsiderai.substack.com/",
       type: "custom",
       description: "Substack AI Newsletter",
       shortDescription: "ainsiderai.substack.com",
       visible: true
-    },       
+    },
     // {
     //   label: "AI Agents & Automation Templates Store",
     //   url: "https://ainsider.store",
@@ -56,7 +56,7 @@ export const siteConfig: SiteConfig = {
     //   shortDescription: "Ainsider.store",
     //   visible: true
     // },
-    
+
     {
       label: "AI Newsletter po polsku",
       url: "https://ainsider.pl",
@@ -64,31 +64,31 @@ export const siteConfig: SiteConfig = {
       description: "AI po polsku",
       shortDescription: "ainsider.pl",
       visible: true
-    }, 
-            {
+    },
+    {
       label: "My Personal Portfolio",
-      url: "https:/macai.cloud.com", 
+      url: "https:/macai.cloud.com",
       type: "custom",
       description: "Check out my latest projects and case studies",
       shortDescription: "macai.cloud",
       visible: true
-    }, 
+    },
     {
       label: "AI Agents & Automation Skool",
       url: "https://www.skool.com/ainsider-6149/about?ref=d207b2af5b914ff09daac8af70f1162c",
       type: "custom",
       description: "Skool with AI Agents & Automations",
       shortDescription: "skool",
-      visible: true
-    },  
-     {
+      visible: false
+    },
+    {
       label: "Gumroad with AI & Creatives Workflows",
       url: "https://ainsider.gumroad.com/",
       type: "custom",
       description: "Gumroad",
       shortDescription: "gumroad",
       visible: true
-    },    
+    },
     // {
     //   label: "Polskojęzyczny Newsletter AI",
     //   url: "https://newsletter.ainsider.pl",
@@ -97,7 +97,7 @@ export const siteConfig: SiteConfig = {
     //   shortDescription: "Subskrybuj",
     //   visible: true
     // },
-   
+
     {
       label: "X",
       url: "https://x.com/piotrmacai",
