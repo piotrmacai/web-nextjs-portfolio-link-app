@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import {
   X, Linkedin, InstagramIcon, Facebook, LinkIcon, Share2, Youtube,
   TwitterIcon as TikTok, PinIcon as Pinterest, Phone, Send,
-  MessageCircle, Globe, ShoppingCart, Bot, Mail, Languages, ShoppingBag,
+  MessageCircle, Globe, ShoppingCart, Bot, Mail, Languages, ShoppingBag, Cpu,
   Palette, Github // Added Github if you uncomment it later
 } from 'lucide-react'
 import Image from 'next/image'
@@ -56,8 +56,8 @@ const getCustomIcon = (label: string, url: string): React.ElementType | undefine
   const lowerLabel = label.toLowerCase();
 
   // Mapping based on your siteConfig labels
-  if (lowerLabel.includes("store") || lowerLabel.includes("hub")) return ShoppingCart;
-  if (lowerLabel.includes("automation studio")) return Bot;
+  if (lowerLabel.includes("store") || lowerLabel.includes("hub")) return Bot;
+  if (lowerLabel.includes("automation studio")) return Cpu;
   if (lowerLabel.includes("substack")) return Mail;
   if (lowerLabel.includes("po polsku")) return Languages;
   if (lowerLabel.includes("portfolio")) return Globe;

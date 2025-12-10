@@ -34,10 +34,18 @@ export const siteConfig: SiteConfig = {
     },
     {
       label: "AI & Automation Studio",
-      url: "https://ainsider.co",
+      url: "https://ainsider.cloud",
       type: "custom",
       description: "AI & Automation Studio",
       shortDescription: "ainsider.co",
+      visible: true
+    },
+    {
+      label: "Video & Visuals with AI",
+      url: "https://gen.ainsider.cloud",
+      type: "custom",
+      description: "Video and visuals with AI",
+      shortDescription: "gen.ainsider.cloud",
       visible: true
     },
     {
@@ -59,7 +67,7 @@ export const siteConfig: SiteConfig = {
 
     {
       label: "AI Newsletter po polsku",
-      url: "https://ainsider.pl",
+      url: "https://ainews.ainsider.cloud",
       type: "custom",
       description: "AI po polsku",
       shortDescription: "ainsider.pl",
@@ -67,7 +75,7 @@ export const siteConfig: SiteConfig = {
     },
     {
       label: "My Personal Portfolio",
-      url: "https:/macai.cloud.com",
+      url: "https://macai.cloud",
       type: "custom",
       description: "Check out my latest projects and case studies",
       shortDescription: "macai.cloud",
