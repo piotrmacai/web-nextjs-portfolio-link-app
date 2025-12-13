@@ -12,7 +12,7 @@ export default function Home() {
   const getSocialLink = (type: string) => {
     return siteConfig.links.find(link => link.type === type && link.visible)
   }
-
+ 
   // const socialMediaLinks = [
   //   { type: 'x', icon: '𝕏', link: getSocialLink('x') },
   //   { type: 'linkedin', icon: <Linkedin className="h-5 w-5" />, link: getSocialLink('linkedin') },

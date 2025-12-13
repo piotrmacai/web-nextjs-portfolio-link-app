@@ -25,7 +25,7 @@ export const siteConfig: SiteConfig = {
   bannerImage: "/banner.png?height=300&width=1200",
   links: [
     {
-      label: "AI Agents & Resources Hub",
+      label: "AI Agents & Tools Directory",
       url: "https://ainsider.store",
       type: "custom",
       description: "AI Agents & Resources Hub",
@@ -42,10 +42,18 @@ export const siteConfig: SiteConfig = {
     },
     {
       label: "Video & Visuals with AI",
-      url: "https://gen.ainsider.cloud",
+      url: "https://gen.ainsider.co",
       type: "custom",
       description: "Video and visuals with AI",
-      shortDescription: "gen.ainsider.cloud",
+      shortDescription: "gen.ainsider.co",
+      visible: true
+    },
+     {
+      label: "My Personal Portfolio",
+      url: "https://macai.cloud",
+      type: "custom",
+      description: "Check out my latest projects and case studies",
+      shortDescription: "macai.cloud",
       visible: true
     },
     {
@@ -67,18 +75,10 @@ export const siteConfig: SiteConfig = {
 
     {
       label: "AI Newsletter po polsku",
-      url: "https://ainews.ainsider.cloud",
+      url: "https://newslleter.ainsider.co",
       type: "custom",
       description: "AI po polsku",
-      shortDescription: "ainsider.pl",
-      visible: true
-    },
-    {
-      label: "My Personal Portfolio",
-      url: "https://macai.cloud",
-      type: "custom",
-      description: "Check out my latest projects and case studies",
-      shortDescription: "macai.cloud",
+      shortDescription: "newslleter.ainsider.co",
       visible: true
     },
     {
@@ -90,7 +90,7 @@ export const siteConfig: SiteConfig = {
       visible: false
     },
     {
-      label: "Gumroad with AI & Creatives Workflows",
+      label: "Gumroad Store",
       url: "https://ainsider.gumroad.com/",
       type: "custom",
       description: "Gumroad",

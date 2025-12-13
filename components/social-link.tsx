@@ -16,8 +16,7 @@ interface SocialLinkProps {
   description?: string
   shortDescription?: string
 }
-
-// ... your existing Image Icon components ...
+  
 const BehanceIcon = () => (
   <Image
     src="/behance.png"
@@ -107,19 +106,19 @@ export function SocialLink({ type, label, url, description, shortDescription }: 
     <Button
       asChild
       variant="outline"
-      className="w-full h-auto text-lg gap-4 bg-background/50 backdrop-blur-sm border-border/50 hover:bg-background/80 flex flex-col items-start p-4 md:flex-row md:items-center"
+      className="w-full h-auto text-lg sm:gap-2 gap-4 bg-background/50 backdrop-blur-sm border-border/50 hover:bg-background/80 flex flex-col items-start p-4 md:flex-row md:items-center"
     >
       <a href={url} target="_blank" rel="noopener noreferrer" className="w-full">
         <div className="flex items-center w-full">
           {/* 5. RENDER THE ICON */}
           {isImageComponent ? (
             // Render custom components (like your Image components) directly
-            <div className="w-5 h-5 mr-4 flex-shrink-0 flex items-center justify-center">
+            <div className="sm:w-4 w- sm:h-4 h-5 sm:mr-2 mr-4 flex-shrink-0 flex items-center justify-center">
               <IconComponent />
             </div>
           ) : (
             // Render Lucide icons with className for sizing
-            <IconComponent className="w-5 h-5 mr-4 flex-shrink-0" />
+            <IconComponent className="sm:w-4 w-5 sm:h-4 h-5 sm:mr-2 mr-4 flex-shrink-0" />
           )}
           <span>{label}</span>
         </div>
